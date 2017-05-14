@@ -1,0 +1,31 @@
+// install angular globally on the machine
+npm install -g @angular/cli
+
+// returns nodejs directory and installed angualr version
+npm list -g @angular/cli --depth=0
+
+// returns the version of angular cli installed, node version, and os
+// quick test to confirm install
+ng -v
+
+
+/*
+ * Generating and exploring a new app
+ */
+
+// creation and installation of a new app
+// *** make sure to do this in the folder where you want to create a new project
+
+// (option 1) will create new project and run npm install of all packages and tooling required
+ng new ngtest
+
+// (option 2) will create new project, however, skips npm install of all packages and tooling
+ng new ngtest --skip-install
+
+/*
+ * Angular sites
+ */
+https://cli.angular.io/
+https://github.com/angular/angular-cli
+https://github.com/angular/angular-cli/wiki
+
